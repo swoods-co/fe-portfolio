@@ -1,0 +1,56 @@
+* {
+    margin:0;
+}
+html {
+    background-color: #0e0e24;
+    color: #fff;
+    padding: 25px 10%;
+    font-family: sans-serif;
+}
+section {
+    padding: 100px 0px;
+}
+section#bio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#pic {
+    flex:1;
+    text-align:center;
+}
+#copy {
+    flex: 2;
+}
+#copy p {
+    padding:10px 25px;
+}
+#hobbies {
+    display:flex;
+    align-items: center;
+    background-color:rgba(0,0,0,.5);
+    border-radius:10px;
+    padding:10px 25px;
+    margin-top:25px;
+    justify-content:center;
+    text-align:center;
+}
+#pic > img {
+    width:250px;
+    border-radius:100%;
+}
+#bio ul {
+    padding: 0;
+    list-style: none;
+}
+#bio li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#bio h2 {
+    flex:1;
+}
+#bio ul {
+    flex: 3;
+}
