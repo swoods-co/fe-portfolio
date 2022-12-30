@@ -59,12 +59,26 @@ section#bio {
 }
 #stack ul {
     list-style: none;
-    column-count: 3;
-    margin: 40px auto;
+    column-count: 4;
+    margin: 40px auto 0px auto;
     padding: 0;
-    width: 600px;
+    width: 800px;
     text-align: center;
 }
 #stack ul li {
     margin-bottom: 20px;
+}
+section#standouts {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+#standouts > div {
+    margin: 10px;
+    background-color: rgba(0,0,0,.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+#standouts h3 {
+    margin-bottom: 10px;
 }
